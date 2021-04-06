@@ -1,17 +1,28 @@
 <html lang="fr" dir="ltr">
+
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="materialize/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>One on One</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
-<body>
-    <nav>
-        <li class="logo"><a href="index.php"><img src="images/eleven.png" height="50" alt="OneonOne"></a></li>
-        <li><a href="#description">En savoir plus</a></li>
-        <li><a href="#galerie">Galerie</a></li>
-        <li><a href="#zywoo">ZywOo</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </nav>
+
+<body class='blue_bg'>
+
+  <nav class='jaune'>
+    <div class="nav-wrapper">
+      <a class="brand-logo"><img src='images/eleven.png' height="60"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="waves-effect waves-light btn">Suivis</a></li>
+        <li><a class="waves-effect waves-light btn">Parcourir</a></li>
+        <li><a class="waves-effect waves-light btn">Rediffusion</a></li>
+        <li><a class="waves-effect waves-light btn">Profil</a></li>
+      </ul>
+    </div>
+  </nav>
+
 </body>
+
 </html>
