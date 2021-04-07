@@ -16,7 +16,7 @@
             <a class="brand-logo center valign-wrapper"><img src='images/eleven.png' height="60"></a>
         </div>
     </nav>
-    <div class='row'>
+    <div class='row valign-wrapper'>
         <div class='col s6 center white-text'>
             <p>Coucou</p>
         </div>
