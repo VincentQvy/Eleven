@@ -10,7 +10,6 @@
 </head>
 
 <body class='blue_bg'>
-
   <nav class='jaune'>
     <div class="nav-wrapper z-depth-1">
       <a class="brand-logo"><img src='images/eleven.png' height="60"></a>
@@ -23,7 +22,29 @@
       </ul>
     </div>
   </nav>
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="images/CSGO.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="images/Dota2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="images/F1_2020.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="images/Fifa21.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="images/Fortnite.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Hearstone.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/LoL.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Overwatch.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/R6.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Rocket_League.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Starcraft2.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/TFT.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Valorant.jpg"></a>
+  </div>
 
+  <script type="text/javascript" src="materialize/js/jquery.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
 </body>
 
 </html>
