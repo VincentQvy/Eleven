@@ -18,10 +18,21 @@
     </nav>
     <div class='row'>
         <div class='col s6 center white-text'>
-            <p class='impact'>Coucou</p>
+            <p>Coucou</p>
         </div>
         <div class='col s6 center white-text'>
-            <p>test</p>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate input white">
+                    <label for="password">Email ou Pseudo</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
         </div>
     </div>
 
