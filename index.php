@@ -12,9 +12,10 @@
 <body class='blue_bg'>
 
   <nav class='jaune'>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper z-depth-1">
       <a class="brand-logo"><img src='images/eleven.png' height="60"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="connexion.php" class="waves-effect waves-light btn">connexion</a></li>
         <li><a class="waves-effect waves-light btn">Suivis</a></li>
         <li><a class="waves-effect waves-light btn">Parcourir</a></li>
         <li><a class="waves-effect waves-light btn">Rediffusion</a></li>
