@@ -12,7 +12,7 @@
 <body class='blue_bg'>
   <nav class='jaune'>
     <div class="nav-wrapper z-depth-1">
-      <a class="brand-logo"><img src='images/eleven.png' height="60"></a>
+      <!-- <a class="brand-logo"><img src='images/eleven.png' height="60"></a> -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="connexion.php" class="waves-effect waves-light btn">connexion</a></li>
         <li><a class="waves-effect waves-light btn">Suivis</a></li>
@@ -36,13 +36,15 @@
     <a class="carousel-item" href="#one!"><img src="images/Starcraft2.jpg"></a>
     <a class="carousel-item" href="#one!"><img src="images/TFT.jpg"></a>
     <a class="carousel-item" href="#one!"><img src="images/Valorant.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/WOW.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="images/Smash.jpg"></a>
   </div>
 
   <script type="text/javascript" src="materialize/js/jquery.min.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
   <script>
   $(document).ready(function(){
-    $('.carousel').carousel();
+    $('.carousel').carousel( {padding:200, fullWidth:true});
   });
 </script>
 </body>

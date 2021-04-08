@@ -12,9 +12,16 @@
 <body class='blue_bg'>
 
     <nav class='jaune'>
-        <div class="nav-wrapper z-depth-1">
-            <a class="brand-logo center valign-wrapper"><img src='images/eleven.png' height="60"></a>
-        </div>
+    <div class="nav-wrapper z-depth-1">
+      <a class="brand-logo"><img src='images/eleven.png' height="60"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.php" class="waves-effect waves-light btn">Accueil</a></li>
+        <li><a class="waves-effect waves-light btn">Suivis</a></li>
+        <li><a class="waves-effect waves-light btn">Parcourir</a></li>
+        <li><a class="waves-effect waves-light btn">Rediffusion</a></li>
+        <li><a class="waves-effect waves-light btn">Profil</a></li>
+      </ul>
+    </div>
     </nav>
     <div class='row valign-wrapper'>
         <div class='col s6 center white-text'>

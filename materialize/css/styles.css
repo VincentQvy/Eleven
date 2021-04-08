@@ -1,13 +1,13 @@
 .jaune{
-    background-color: #ffab40;
+    background-color: #ffab40  ;
 }
 
 .blue_bg{
-    background-color: #001633;
+    background-color: #001633 ;
 }
 
 .blue_light{
-    background-color: #85d5e6;
+    background-color: #4fc3f7;
 }
 
 .impact{
@@ -19,4 +19,8 @@
 }
 .input{
     border-radius: 25px;
+}
+
+.indicators{
+    margin-top: 150px;
 }
