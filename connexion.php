@@ -34,6 +34,16 @@
                     <input id="password" type="password" placeholder="password" class="validate">
                 </div>
             </div>
+            <div>
+                <a class="waves-effect waves-light btn-large black-text jaune border">Connexion</a>
+            </div>
+            <div>
+            <a href='index.php' class="grey-text blue_bg">Mot de passe oublié ?</a>
+            </div>
+            <hr>
+            <div>
+                <a class="waves-effect waves-light btn-large black-text blue_light border">Creer un compte</a>
+            </div>
         </div>
         <div class='col s2'>
     </div>
