@@ -28,14 +28,14 @@
     <a class="carousel-item" href="#three!"><img src="images/F1_2020.jpg"></a>
     <a class="carousel-item" href="#four!"><img src="images/Fifa21.jpg"></a>
     <a class="carousel-item" href="#five!"><img src="images/Fortnite.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Hearstone.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/LoL.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Overwatch.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/R6.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Rocket_League.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Starcraft2.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/TFT.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Valorant.jpg"></a>
+    <a class="carousel-item" href="#six!"><img src="images/Hearstone.jpg"></a>
+    <a class="carousel-item" href="#seven!"><img src="images/LoL.jpg"></a>
+    <a class="carousel-item" href="#eight!"><img src="images/Overwatch.jpg"></a>
+    <a class="carousel-item" href="#nine!"><img src="images/R6.jpg"></a>
+    <a class="carousel-item" href="#ten!"><img src="images/Rocket_League.jpg"></a>
+    <a class="carousel-item" href="#eleven!"><img src="images/Starcraft2.jpg"></a>
+    <a class="carousel-item" href="#twelve!"><img src="images/TFT.jpg"></a>
+    <a class="carousel-item" href="#thirteen!"><img src="images/Valorant.jpg"></a>
   </div>
 
   <script type="text/javascript" src="materialize/js/jquery.min.js"></script>
