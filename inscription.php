@@ -17,36 +17,35 @@
         </div>
     </nav>
     <div class='row valign-wrapper'>
-        <div class='col s2'>
+        <div class='col s3'>
         </div>
-        <div class='col s4 center white-text'>
-            <h3>One on One</h3>
-            <p>Avec One on One, profitez de l'ensemble des compétitions d'esport du monde entier !</p>
-        </div>
-        <div class='col s4 center white-text'>
+        <div class='col s6 center white-text'>
             <div class="row">
                 <div class="input-field col s12 white border">
-                    <input id="email" type="email" placeholder='email ou pseudo' class="input">
+                    <input id="pseudo" type="text" placeholder='Pseudo' class="input">
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12 white border">
-                    <input id="password" type="password" placeholder="password" class="validate">
+                    <input id="password" type="password" placeholder="Password" class="validate">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 white border">
+                    <input id="confirm_password" type="password" placeholder="Confirm Password" class="validate">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 white border">
+                    <input id="email" type="email" placeholder="Email" class="input">
                 </div>
             </div>
             <div>
-                <a class="waves-effect waves-light btn-large black-text jaune border">Connexion</a>
-            </div>
-            <div>
-            <a href='index.php' class="grey-text blue_bg">Mot de passe oublié ?</a>
-            </div>
-            <hr>
-            <div>
-                <a href='inscription.php' class="waves-effect waves-light btn-large black-text blue_light border">Creer un compte</a>
+                <a href="inscription_finalize.php" class="waves-effect waves-light btn-large black-text jaune border">Connexion</a>
             </div>
         </div>
-        <div class='col s2'>
-    </div>
+        <div class='col s3'>
+        </div>
     </div>
 
 </body>

@@ -24,29 +24,21 @@
             <p>Avec One on One, profitez de l'ensemble des compétitions d'esport du monde entier !</p>
         </div>
         <div class='col s4 center white-text'>
-            <div class="row">
-                <div class="input-field col s12 white border">
-                    <input id="email" type="email" placeholder='email ou pseudo' class="input">
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12 white border">
-                    <input id="password" type="password" placeholder="password" class="validate">
-                </div>
-            </div>
-            <div>
-                <a class="waves-effect waves-light btn-large black-text jaune border">Connexion</a>
-            </div>
-            <div>
-            <a href='index.php' class="grey-text blue_bg">Mot de passe oublié ?</a>
-            </div>
-            <hr>
-            <div>
-                <a href='inscription.php' class="waves-effect waves-light btn-large black-text blue_light border">Creer un compte</a>
-            </div>
+            <img src='images/LoL.jpg'>
         </div>
         <div class='col s2'>
+        </div>
     </div>
+    <div class="row valign-wrapper">
+        <div class="col s3">
+        </div>
+        <div class="col s6 center">
+            <hr>
+            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ullam omnis, itaque aperiam facere explicabo asperiores sit sed quisquam voluptates accusantium dolorum dolore distinctio maiores assumenda, modi provident? Labore, velit.</p>
+            <a href="index.php" class="waves-effect waves-light btn-large black-text jaune border">Finaliser inscription</a>
+        </div>
+        <div class="col s3">
+        </div>
     </div>
 
 </body>
