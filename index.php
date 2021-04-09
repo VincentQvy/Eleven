@@ -13,7 +13,6 @@
 
 <body class='blue_bg'>
   <?php require_once 'component/navbar.php'?>
-
   <div class="carousel">
     <a class="carousel-item" href="#one!"><img src="images/CSGO.jpg"></a>
     <a class="carousel-item" href="#two!"><img src="images/Dota2.jpg"></a>
