@@ -1,9 +1,9 @@
 .jaune{
-    background-color: #ffab40  ;
+    background-color: #37474f   ;
 }
 
 .blue_bg{
-    background-color: #001633 ;
+    background-color: #263238  ;
 }
 
 .blue_light{
@@ -18,10 +18,17 @@
     text-align: center;
 }
 .input{
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
-
 .border{
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.page-footer{
+    position: absolute;
+    bottom: 0%;
+    background-color: #263238!important;
+    text-align: center;
+    width: 100%;
 }

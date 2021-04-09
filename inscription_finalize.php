@@ -10,12 +10,7 @@
 </head>
 
 <body class='blue_bg'>
-
-    <nav class='jaune'>
-        <div class="nav-wrapper z-depth-1">
-            <a href="index.php" class="brand-logo center valign-wrapper"><img src='images/eleven.png' height="60"></a>
-        </div>
-    </nav>
+    <?php require_once 'component/navbar.php'?>
     <div class='row valign-wrapper'>
         <div class='col s2'>
         </div>
