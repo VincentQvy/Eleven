@@ -10,19 +10,7 @@
 </head>
 
 <body class='blue_bg'>
-
-    <nav class='jaune'>
-        <div class="nav-wrapper z-depth-1">
-            <!-- <a class="brand-logo"><img src='images/eleven.png' height="60"></a> -->
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.php" class="waves-effect waves-light btn border">Accueil</a></li>
-                <li><a class="waves-effect waves-light btn border">Suivis</a></li>
-                <li><a class="waves-effect waves-light btn border">Parcourir</a></li>
-                <li><a class="waves-effect waves-light btn border">Rediffusion</a></li>
-                <li><a class="waves-effect waves-light btn border">Profil</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php require_once 'component/navbar.php'?>
     <div class='row valign-wrapper'>
         <div class='col s3'>
         </div>
