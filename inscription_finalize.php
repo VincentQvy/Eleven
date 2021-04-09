@@ -13,7 +13,14 @@
 
     <nav class='jaune'>
         <div class="nav-wrapper z-depth-1">
-            <a href="index.php" class="brand-logo center valign-wrapper"><img src='images/eleven.png' height="60"></a>
+            <!-- <a class="brand-logo"><img src='images/eleven.png' height="60"></a> -->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="connexion.php" class="waves-effect waves-light btn border">Connexion</a></li>
+                <li><a class="waves-effect waves-light btn border">Suivis</a></li>
+                <li><a class="waves-effect waves-light btn border">Parcourir</a></li>
+                <li><a class="waves-effect waves-light btn border">Rediffusion</a></li>
+                <li><a class="waves-effect waves-light btn border">Profil</a></li>
+            </ul>
         </div>
     </nav>
     <div class='row valign-wrapper'>

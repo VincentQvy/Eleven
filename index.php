@@ -14,7 +14,7 @@
     <div class="nav-wrapper z-depth-1">
       <!-- <a class="brand-logo"><img src='images/eleven.png' height="60"></a> -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="connexion.php" class="waves-effect waves-light btn border">connexion</a></li>
+        <li><a href="connexion.php" class="waves-effect waves-light btn border red">Connexion</a></li>
         <li><a class="waves-effect waves-light btn border">Suivis</a></li>
         <li><a class="waves-effect waves-light btn border">Parcourir</a></li>
         <li><a class="waves-effect waves-light btn border">Rediffusion</a></li>
