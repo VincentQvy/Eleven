@@ -32,8 +32,7 @@
 
   </div>
 
-
-  <script>
+<script>
   $(document).ready(function(){
     $('.carousel').carousel( {padding:200});
   });
