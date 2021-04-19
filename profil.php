@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -12,35 +13,47 @@
 </head>
 
 <body class='blue_bg'>
-  <?php require_once 'component/navbar.php' ?>
-  <div class="row">
-    <div class="col s10 offset-s1"><p>Image_profil.png</p><h1 class="white-text">Username</h1></div>
-  </div>
-  <div class="row">
-    <div class="col s10 offset-s1"><hr></div>
-  </div>
+  <?php require_once 'component/navbar.php';
+        require_once 'component/config.php';
+        $user = CommandSQL($pdo, 'SELECT * FROM users WHERE firstname like "Vincent"')[0];
+    ?>
   <div class="row">
     <div class="col s10 offset-s1">
-    <h3 class="white-text">Compte</h3>
-    <p>Coucou la zone</p>
+      <p><?php echo $user['profil_pic']  ?></p>
+      <h1 class="white-text"><?php echo $user['pseudo']  ?></h1>
     </div>
   </div>
   <div class="row">
-    <div class="col s10 offset-s1"><hr></div>
-  </div>
-  <div class="row">
     <div class="col s10 offset-s1">
-    <h3 class="white-text">Abonnement</h3>
-    <p>Pour l'abonnement rhalas ta mere stp</p>
+      <hr>
     </div>
   </div>
   <div class="row">
-    <div class="col s10 offset-s1"><hr></div>
+    <div class="col s10 offset-s1">
+      <h3 class="white-text">Compte</h3>
+      <p>Coucou la zone</p>
+    </div>
   </div>
   <div class="row">
     <div class="col s10 offset-s1">
-    <h3 class="white-text">Paramètre</h3>
-    <p>Pour les paramètres règles les toi meme stp</p>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <h3 class="white-text">Abonnement</h3>
+      <p>Pour l'abonnement rhalas ta mere stp</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <h3 class="white-text">Paramètre</h3>
+      <p>Pour les paramètres règles les toi meme stp</p>
     </div>
   </div>
 </body>
