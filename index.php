@@ -13,28 +13,32 @@
 
 <body class='blue_bg'>
   <?php require_once 'component/navbar.php'?>
-  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="images/CSGO.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="images/Dota2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="images/F1_2020.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="images/Fifa21.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="images/Fortnite.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Hearstone.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/LoL.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Overwatch.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/R6.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Rocket_League.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Starcraft2.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/TFT.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Valorant.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/WOW.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Smash.jpg"></a>
-
+  <div id="liveCompetition" class="carousel 5-items">
+    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    <div class="carousel-item" href="#one!">
+    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </div>
 
 <script>
   $(document).ready(function(){
-    $('.carousel').carousel( {padding:200});
+    $('.carousel.5-items').carousel( {padding:400});
   });
 </script>
 </body>

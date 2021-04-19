@@ -28,10 +28,19 @@
       <hr>
     </div>
   </div>
-  <div class="row">
+  <div class="row white-text">
     <div class="col s10 offset-s1">
-      <h3 class="white-text">Compte</h3>
-      <p>Coucou la zone</p>
+    <h3>Compte</h3>
+    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les informations personnelles</a>
+    </div>
+  </div>
+  <div class="row white-text">
+    <div class="col s10 offset-s1"><hr></div>
+  </div>
+  <div class="row white-text">
+    <div class="col s10 offset-s1">
+    <h3>Abonnement et facturation</h3>
+    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier ou annuler l'abonnement</a>
     </div>
   </div>
   <div class="row">
@@ -39,21 +48,10 @@
       <hr>
     </div>
   </div>
-  <div class="row">
+  <div class="row white-text">
     <div class="col s10 offset-s1">
-      <h3 class="white-text">Abonnement</h3>
-      <p>Pour l'abonnement rhalas ta mere stp</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s10 offset-s1">
-      <hr>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s10 offset-s1">
-      <h3 class="white-text">Paramètre</h3>
-      <p>Pour les paramètres règles les toi meme stp</p>
+    <h3>Paramètre</h3>
+    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les paramètres du profil</a>
     </div>
   </div>
 </body>
