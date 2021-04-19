@@ -7,6 +7,7 @@
         <li><a class="waves-effect waves-light btn-flat grey-text">Parcourir</a></li>
         <li><a class="waves-effect waves-light btn-flat grey-text">Rediffusion</a></li>
         <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
+        <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
         <li><a href="#modal1" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
         <div id="modal1" class="modal">
             <div class="modal-content">
