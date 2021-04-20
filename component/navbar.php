@@ -5,9 +5,13 @@
         <li><a href='index.php' class="waves-effect waves-light btn-flat grey-text">Accueil</a></li>
         <li><a href='suivi.php' class="waves-effect waves-light btn-flat grey-text">Suivis</a></li>
         <li><a class="waves-effect waves-light btn-flat grey-text">Parcourir</a></li>
+        <?php if(isset($_SESSION['user'])) {?>
         <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
         <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
-        <li><a href="#modal1" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
+        <li><a href="disconnect.php" class="waves-effect waves-light btn-flat grey-text">Déconnexion</a></li>
+        <?php }else{?>
+            <li><a href="#modal1" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
+        <?php } ?>
         <div id="modal1" class="modal">
             <div class="modal-content">
                 <div class="center black-text">
@@ -20,9 +24,9 @@
                         </div>
                         <div class='col s6 center black-text'>
                             <div class="row">
-                            <div class="input-field col s12 white border">
-                                <input id="email" type="email" placeholder='email ou pseudo' class="input">
-                            </div>
+                                <div class="input-field col s12 white border">
+                                    <input id="email" type="email" placeholder='email ou pseudo' class="input">
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12 white border">
