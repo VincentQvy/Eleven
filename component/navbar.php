@@ -1,3 +1,5 @@
+<?php require_once 'component/config.php' ?>
+
 <nav class='jaune navbar'>
     <div class="nav-wrapper z-depth-1">
       <a href="index.php" class="brand-logo"><img src='images/eleven.png' height="63"></a>
