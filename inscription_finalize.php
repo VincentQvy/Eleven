@@ -12,7 +12,8 @@
 </head>
 
 <body class='blue_bg'>
-    <?php require_once 'component/navbar.php'?>
+    <?php require 'component/config.php';
+    require_once 'component/navbar.php' ?>
     <div class='row valign-wrapper'>
         <div class='col s2'>
         </div>

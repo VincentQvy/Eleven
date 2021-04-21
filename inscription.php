@@ -12,46 +12,47 @@
 </head>
 
 <body class='blue_bg'>
-    <?php require_once 'component/navbar.php' ?>
+    <?php require 'component/config.php';
+    require_once 'component/navbar.php' ?>
     <div class="center-align placement_img_inscription">
         <a class="brand-logo "><img src='images/eleven.png' height="150"></a>
     </div>
     <div class='row valign-wrapper'>
         <div class='col s6 offset-s3 center white-text'>
-            <form action="component/connect.php" method="POST">
+            <form action="component/signup.php" method="post">
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="pseudo" type="text" placeholder='Pseudo' class="input">
+                        <input name="pseudo" type="text" placeholder='Pseudo' class="input">
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="pseudo" type="text" placeholder='Nom' class="input">
+                        <input name="last_name" type="text" placeholder='Nom' class="input">
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="pseudo" type="text" placeholder='Prénom' class="input">
+                        <input name="first_name" type="text" placeholder='Prénom' class="input">
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="password" type="password" placeholder="Password" class="validate">
+                        <input name="password_sign" type="password" placeholder="Password" class="validate">
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="confirm_password" type="password" placeholder="Confirm Password" class="validate">
+                        <input name="confirm_password" type="password" placeholder="Confirm Password" class="validate">
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12 white border">
-                        <input id="email" type="email" placeholder="Email" class="input">
+                        <input name="email_sign" type="email" placeholder="Email" class="input">
                     </div>
                 </div>
                 <div>
                     <div>
-                        <a class="waves-effect waves-light btn-large black-text blue_light border"><input type="submit" name="formconnexion" value="Connect"/></a>
+                        <input type="submit" name="formconnexion" value="Connect"/>
                     </div>
                 </div>
             </form>

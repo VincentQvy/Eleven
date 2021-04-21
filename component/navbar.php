@@ -6,9 +6,9 @@
         <li><a class="waves-effect waves-light btn-flat grey-text">Parcourir</a></li>
         <li><a href='redif.php' class="waves-effect waves-light btn-flat grey-text">Rediffusion</a></li>
         <?php if(isset($_SESSION['user'])) {?>
-        <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
-        <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
-        <li><a href="disconnect.php" class="waves-effect waves-light btn-flat grey-text">Déconnexion</a></li>
+            <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
+            <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
+            <li><a href="component/disconnect.php" class="waves-effect waves-light btn-flat grey-text">Déconnexion</a></li>
         <?php }else{?>
             <li><a href="#modal1" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
         <?php } ?>
@@ -23,19 +23,21 @@
                             <img src="images/eleven.png" alt="">
                         </div>
                         <div class='col s6 center black-text'>
-                            <div class="row">
-                                <div class="input-field col s12 white border">
-                                    <input id="email" type="email" placeholder='email ou pseudo' class="input">
+                            <form action="component/connect.php" method="post">
+                                <div class="row">
+                                    <div class="input-field col s12 white border">
+                                        <input name="email_connect" type="email" placeholder='email ou pseudo' class="input">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12 white border">
-                                    <input id="password" type="password" placeholder="password" class="validate">
+                                <div class="row">
+                                    <div class="input-field col s12 white border">
+                                        <input name="password_connect" type="password" placeholder="password" class="validate">
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <a class="waves-effect waves-light btn-large black-text jaune border">Connexion</a>
-                            </div>
+                                <div>
+                                    <input type="submit" name="formconnexion" value="Connect"/>
+                                </div>
+                            </form>
                             <div >
                                 <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Mot de passe oublié ?</a>
                             </div>
