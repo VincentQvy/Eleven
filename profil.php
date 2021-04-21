@@ -13,14 +13,14 @@
 </head>
 
 <body class='blue_bg'>
-  <?php require_once 'component/navbar.php';
-        require_once 'component/config.php';
-        $user = CommandSQL($pdo, 'SELECT * FROM users WHERE firstname like "Vincent"')[0];
+  <?php require_once 'component/config.php';
+        require_once 'component/navbar.php';
     ?>
   <div class="row">
     <div class="col s10 offset-s1">
-      <p><?php echo $user['profil_pic']  ?></p>
-      <h1 class="white-text"><?php echo $user['pseudo']  ?></h1>
+      <p><?php var_dump($_SESSION['user']);
+       echo $_SESSION["user"]['pseudo'] ?></p>
+      <h1 class="white-text"></h1>
     </div>
   </div>
   <div class="row">

@@ -12,35 +12,9 @@
 </head>
 
 <body class='blue_bg'>
-  <?php require_once 'component/navbar.php'?>
-  <div id="liveCompetition" class="carousel 5-items">
-    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>    <div class="carousel-item" href="#one!">
-    <iframe style='pointer-events:none' width="560" height="315" src="https://www.youtube.com/embed/U0pHhMpVrSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-
-<script>
-  $(document).ready(function(){
-    $('.carousel.5-items').carousel( {padding:400});
-  });
-</script>
+  <?php require 'component/config.php';
+  require_once 'component/navbar.php'?>
+  <p>coucou</p>
 </body>
 
 </html>
