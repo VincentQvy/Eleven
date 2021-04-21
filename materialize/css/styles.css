@@ -66,3 +66,20 @@
 hr {
     border-color: #263238;
 }
+.page-footer{
+    background-color: #3E3E3E;
+}
+
+.logo{
+    width: 150px;
+}
+
+.fb, .tw, .ig, .tt, .yt, .ln{
+    padding: 5px;
+    font-size: 25px;
+  }
+
+.unstyled{
+    list-style-type: none;
+    text-align: left;
+}

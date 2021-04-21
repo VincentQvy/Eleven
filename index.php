@@ -113,6 +113,11 @@
     <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s10"> <hr> </div>
+    <div class="col s1"></div>
+  </div>
 
   <script>
     $(document).ready(function(){
