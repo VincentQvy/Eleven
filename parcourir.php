@@ -16,27 +16,35 @@
     $jeux = CommandSQL($pdo, "SELECT * FROM games");
     foreach ($jeux as $jeu) {
     ?>
-        <div class="row">
-            <div class="col s1"></div>
-            <div class="col s3 white-text police_title">
-                <p><?php echo $jeu['name'] ?></p>
-                <img src="<?php echo $jeu['image_url'] ?>">
+        <?php $videos = CommandSQL($pdo, "SELECT * FROM videos where game_id = " . $jeu['id']);
+        if ($videos != null) { ?>
+            <div class="row">
+                <div class="col s1"></div>
+                <div class="col s3 white-text police_title">
+                    <p><?php echo $jeu['name'] ?></p>
+                </div>
+                <div class="col s8"></div>
             </div>
-            <div class="col s8"></div>
-        </div>
-    <?php
+            <div id="liveCompetition" class="carousel ">
+                <?php foreach ($videos as $video) { ?>
+                    <div class="carousel-item day_competition" ">
+                        <iframe src="<?php echo $video['url'] ?>" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+            <?php }
+            }  ?>
+            </div>
+        <?php
     } ?>
 
-
-    <script>
-        $(document).ready(function() {
-            $('.carousel').carousel({
-                padding: 150,
-                fullWidth: true,
-                indicators: true
+        <script>
+            $(document).ready(function() {
+                $('.carousel').carousel({
+                    padding: 150,
+                    fullWidth: true,
+                    indicators: true
+                });
             });
-        });
-    </script>
+        </script>
 </body>
 <?php require_once 'component/footer.php' ?>
 
