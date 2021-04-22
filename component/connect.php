@@ -17,8 +17,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
         }
         else {
             echo("L'annannas est dans la baignoire.");
-            var_dump($users);
-            //header("Location: ../index.php");
+            header("Location: ../index.php");
 
         }
     }

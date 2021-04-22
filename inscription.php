@@ -52,12 +52,14 @@
                 </div>
                 <div>
                     <div>
-                        <input type="submit" name="formconnexion" value="Connect"/>
+                         <button class="waves-effect waves-light btn-large black-text blue_light border red" type="submit" name="formconnexion">S'inscrire</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
 </body>
+<?php require_once 'component/footer.php'?>
+
 
 </html>
