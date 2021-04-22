@@ -5,7 +5,7 @@
       <a href="index.php" class="brand-logo"><img src='images/eleven.png' height="63"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href='suivi.php' class="waves-effect waves-light btn-flat grey-text">Suivis</a></li>
-        <li><a class="waves-effect waves-light btn-flat grey-text">Parcourir</a></li>
+        <li><a href='parcourir.php' class="waves-effect waves-light btn-flat grey-text">Parcourir</a></li>
         <li><a href='redif.php' class="waves-effect waves-light btn-flat grey-text">Rediffusion</a></li>
         <?php if(isset($_SESSION['user'])) {?>
             <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
