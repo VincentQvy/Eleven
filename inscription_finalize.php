@@ -21,8 +21,8 @@
             <h3>One on One</h3>
             <p>Avec One on One, profitez de l'ensemble des compétitions d'esport du monde entier !</p>
         </div>
-        <div class='col s4 center white-text'>
-            <img src='images/LoL.jpg'>
+        <div class='col s4 center white-text logo_place'>
+            <img src='images/esport_victory.jpg'>
         </div>
         <div class='col s2'>
         </div>
@@ -40,5 +40,6 @@
     </div>
 
 </body>
+<?php require_once 'component/footer.php'?>
 
 </html>

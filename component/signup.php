@@ -13,10 +13,10 @@ $users = $stmt->fetchAll();
 foreach($users as $user) {
 
     if(($user['email'] == $mail)||($user['pseudo'] == $pseudo)) {
-        header("Location: ../inscription.php");
+        header("Location: ../inscription_finalize.php");
     }
     else {
         $new_user = CommandSQL($pdo,"INSERT INTO users (pseudo,firstname,lastname,email,password,profil_pic,is_creator) VALUES ('$pseudo','$first_name','$last_name','$mail','$password','0','0' )");
-        header("Location: ../index.php");
+        header("Location: ../inscription_finalize.php");
     }
 }
