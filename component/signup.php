@@ -1,0 +1,22 @@
+<?php require_once "config.php"; 
+
+
+$pseudo = test_input($_POST["pseudo"]);
+$last_name = test_input($_POST["last_name"]);
+$first_name = test_input($_POST["first_name"]);
+$mail = test_input($_POST["email_sign"]);
+$password = test_input($_POST["password_sign"]);
+$stmt = $pdo->prepare("SELECT * FROM users");
+$stmt->execute();
+$users = $stmt->fetchAll();
+
+foreach($users as $user) {
+
+    if(($user['email'] == $mail)||($user['pseudo'] == $pseudo)) {
+        header("Location: ../inscription_finalize.php");
+    }
+    else {
+        $new_user = CommandSQL($pdo,"INSERT INTO users (pseudo,firstname,lastname,email,password,profil_pic,is_creator) VALUES ('$pseudo','$first_name','$last_name','$mail','$password','0','0' )");
+        header("Location: ../inscription_finalize.php");
+    }
+}

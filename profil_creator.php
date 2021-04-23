@@ -13,14 +13,11 @@
 </head>
 
 <body class='blue_bg'>
-  <?php require_once 'component/config.php';
-        require_once 'component/navbar.php';
-    ?>
+  <?php require 'component/config.php';
+  require_once 'component/navbar.php' ?>
   <div class="row">
     <div class="col s10 offset-s1">
-      <p><?php var_dump($_SESSION['user']);
-       echo $_SESSION["user"]['pseudo'] ?></p>
-      <h1 class="white-text"></h1>
+      <h1 class="white-text"><img src="images/shroud.png" alt=""> Shroud</h1>
     </div>
   </div>
   <div class="row">
@@ -28,19 +25,15 @@
       <hr>
     </div>
   </div>
-  <div class="row white-text">
+  <div class="row">
     <div class="col s10 offset-s1">
-    <h3>Compte</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les informations personnelles</a>
+      <h3 class="white-text">Compte</h3>
+      <p class="white-text">I'm back baby</p>
     </div>
   </div>
-  <div class="row white-text">
-    <div class="col s10 offset-s1"><hr></div>
-  </div>
-  <div class="row white-text">
+  <div class="row">
     <div class="col s10 offset-s1">
-    <h3>Abonnement et facturation</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier ou annuler l'abonnement</a>
+      <h3 class="white-text">Dernière diffusion</h3>
     </div>
   </div>
   <div class="row">
@@ -48,10 +41,9 @@
       <hr>
     </div>
   </div>
-  <div class="row white-text">
+  <div class="row">
     <div class="col s10 offset-s1">
-    <h3>Paramètre</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les paramètres du profil</a>
+      <h3 class="white-text">Catégorie streamé récement</h3>
     </div>
   </div>
 </body>
