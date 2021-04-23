@@ -13,30 +13,119 @@
 
 <body class='blue_bg'>
   <?php require_once 'component/navbar.php'?>
-  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="images/CSGO.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="images/Dota2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="images/F1_2020.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="images/Fifa21.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="images/Fortnite.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Hearstone.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/LoL.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Overwatch.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/R6.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Rocket_League.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Starcraft2.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/TFT.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Valorant.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/WOW.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="images/Smash.jpg"></a>
-
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s3 white-text police_title">  
+      <p>Compétitions de la journées</p>
+    </div>
+    <div class="col s8"></div>
+  </div>
+  <div id="liveCompetition" class="carousel ">
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/U0pHhMpVrSE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/4sRGY4XMluU" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/veRkjLdlQWI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/DpfHGZzo6D4" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/Ag0IjbHVaP8" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/6uKFSI3rWNE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s10"> <hr> </div>
+    <div class="col s1"></div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s3 white-text police_title">  
+      <p>Chaînes les plus regardées</p>
+    </div>
+    <div class="col s8"></div>
+  </div>
+  <div id="liveCompetition" class="carousel ">
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/U0pHhMpVrSE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/4sRGY4XMluU" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/veRkjLdlQWI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/DpfHGZzo6D4" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/Ag0IjbHVaP8" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/6uKFSI3rWNE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s10"> <hr> </div>
+    <div class="col s1"></div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s3 white-text police_title">  
+      <p>Les chaînes que vous aimez</p>
+    </div>
+    <div class="col s8"></div>
+  </div>
+  <div id="liveCompetition" class="carousel ">
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/U0pHhMpVrSE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/4sRGY4XMluU" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/veRkjLdlQWI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/DpfHGZzo6D4" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/Ag0IjbHVaP8" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/6uKFSI3rWNE" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item day_competition" href="#one!">
+    <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s10"> <hr> </div>
+    <div class="col s1"></div>
   </div>
 
-<script>
-  $(document).ready(function(){
-    $('.carousel').carousel( {padding:200});
-  });
-</script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel( {padding:150 , fullWidth:true, indicators:true});
+    });
+  </script>
 </body>
+  <?php require_once 'component/footer.php'?>
+
 
 </html>

@@ -1,11 +1,12 @@
 .jaune{
     background-color: #37474f   ;
 }
-
 .blue_bg{
-    background-color: #263238  ;
+    background-color: #263238;
 }
-
+.logo_place{
+    margin-top: 40px;
+}
 
 .blue_light{
     background-color: #4fc3f7;
@@ -27,9 +28,9 @@
 }
 
 .page-footer{
-    position: absolute;
+    position: relative;
     bottom: 0%;
-    background-color: #263238!important;
+    background-color: #37474f!important;
     text-align: center;
     width: 100%;
 }
@@ -45,4 +46,37 @@
 
 .placement_img_inscription{
     margin-top: 10px;
+}
+.carousel .carousel-item{
+    width: 400;
+    height: 200;
+    left: 50;
+    visibility: visible;
+
+}
+#liveCompetition{
+    height: 250 !important;
+}
+.police_title{
+    font-size: 30;
+}
+hr {
+    border-color: #263238;
+}
+.page-footer{
+    background-color: #3E3E3E;
+}
+
+.logo{
+    width: 150px;
+}
+
+.fb, .tw, .ig, .tt, .yt, .ln{
+    padding: 5px;
+    font-size: 25px;
+  }
+
+.unstyled{
+    list-style-type: none;
+    text-align: left;
 }
