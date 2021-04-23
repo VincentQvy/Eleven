@@ -38,6 +38,13 @@
                     </div>
                 </div>
             </form>
+            <div >
+                <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Mot de passe oublié ?</a>
+            </div>
+            <hr>
+            <div>
+                <a href='inscription.php' class="waves-effect waves-light btn-large black-text blue_light border">Creer un compte</a>
+            </div>
         </div>
     </div>
 </body>

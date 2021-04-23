@@ -15,7 +15,7 @@
   <?php require_once 'component/navbar.php'?>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s3 white-text police_title">  
+    <div class="col s3 m6 white-text police_title">  
       <p>Compétitions que vous avez raté</p>
     </div>
     <div class="col s8"></div>
@@ -50,7 +50,7 @@
   </div>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s4 white-text police_title">  
+    <div class="col s4 m8 white-text police_title">  
       <p>Reprendre les compétitions en cours</p>
     </div>
     <div class="col s7"></div>
@@ -85,7 +85,7 @@
   </div>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s4 white-text police_title">  
+    <div class="col s4 m8 white-text police_title">  
       <p>Les compétitions que vous auriez pu aimer</p>
     </div>
     <div class="col s7"></div>
@@ -112,11 +112,6 @@
     <div class="carousel-item day_competition" href="#one!">
     <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-  </div>
-  <div class="row">
-    <div class="col s1"></div>
-    <div class="col s10"> <hr> </div>
-    <div class="col s1"></div>
   </div>
 
   <script>

@@ -16,10 +16,10 @@
   <?php require_once 'component/config.php';
         require_once 'component/navbar.php';
     ?>
-  <div class="row">
+  <div class="row white-text">
     <div class="col s10 offset-s1">
-      <p><?php var_dump($_SESSION['user']);
-       echo $_SESSION["user"]['pseudo'] ?></p>
+    <h3><?php $_SESSION['user'];
+       echo $_SESSION["user"]['pseudo'] ?></h3>
       <h1 class="white-text"></h1>
     </div>
   </div>

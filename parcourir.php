@@ -20,7 +20,7 @@
         if ($videos != null) { ?>
             <div class="row">
                 <div class="col s1"></div>
-                <div class="col s3 white-text police_title">
+                <div class="col s3 m6 white-text police_title">
                     <p><?php echo $jeu['name'] ?></p>
                 </div>
                 <div class="col s8"></div>

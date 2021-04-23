@@ -15,7 +15,7 @@
   <?php require_once 'component/navbar.php'?>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s3 white-text police_title">  
+    <div class="col s3 m6 white-text police_title">  
       <p>Compétitions de la journées</p>
     </div>
     <div class="col s8"></div>
@@ -50,7 +50,7 @@
   </div>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s3 white-text police_title">  
+    <div class="col s3 m6 white-text police_title">  
       <p>Chaînes les plus regardées</p>
     </div>
     <div class="col s8"></div>
@@ -85,7 +85,7 @@
   </div>
   <div class="row">
     <div class="col s1"></div>
-    <div class="col s3 white-text police_title">  
+    <div class="col s3 m6 white-text police_title">  
       <p>Les chaînes que vous aimez</p>
     </div>
     <div class="col s8"></div>
@@ -113,12 +113,7 @@
     <iframe  src="https://www.youtube.com/embed/XO1VwfTw3bI" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="row">
-    <div class="col s1"></div>
-    <div class="col s10"> <hr> </div>
-    <div class="col s1"></div>
-  </div>
-
+ 
   <script>
     $(document).ready(function(){
       $('.carousel').carousel( {padding:150 , fullWidth:true, indicators:true});

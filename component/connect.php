@@ -16,8 +16,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
                 header("Location: ../index.php");
         }
         else {
-            echo("L'annannas est dans la baignoire.");
-            header("Location: ../index.php");
+            echo("Mot de passe ou utilisateur incorrect");
 
         }
     }
