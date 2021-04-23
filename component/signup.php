@@ -14,7 +14,7 @@ $users = $stmt->fetchAll();
 foreach($users as $user) {
 
     if(($user['email'] == $mail)||($user['pseudo'] == $pseudo)) {
-        header("Location: ../inscription_finalize.php");
+        echo "L'email ou le pseudo est déjè utilisé";
     }
 }
 $new_user = CommandSQL($pdo,"INSERT INTO users (pseudo,firstname,lastname,email,password,profil_pic,is_creator) VALUES ('$pseudo','$first_name','$last_name','$mail','$hash_password','0','0' )");

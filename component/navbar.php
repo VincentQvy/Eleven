@@ -10,7 +10,6 @@
             <li><a href='redif.php' class="waves-effect waves-light btn-flat grey-text">Rediffusion</a></li>
             <?php if(isset($_SESSION['user'])) {?>
                 <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
-                <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
                 <li><a href="component/disconnect.php" class="waves-effect waves-light btn-flat grey-text">Déconnexion</a></li>
             <?php }else{?>
                 <li><a href="#modal1" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
@@ -66,7 +65,6 @@
     <li><a href='redif.php' class="waves-effect waves-light btn-flat grey-text">Rediffusion</a></li>
     <?php if(isset($_SESSION['user'])) {?>
         <li><a href="profil.php" class="waves-effect waves-light btn-flat grey-text">Profil</a></li>
-        <li><a href="profil_creator.php" class="waves-effect waves-light btn-flat grey-text">Profil Créateur</a></li>
         <li><a href="component/disconnect.php" class="waves-effect waves-light btn-flat grey-text">Déconnexion</a></li>
     <?php }else{?>
         <li><a href="connect_mobile.php" class="waves-effect waves-light btn border red darken-4 modal-trigger">Connexion</a></li>
@@ -78,6 +76,3 @@
         $('.sidenav').sidenav();
     });
   </script>
-
-
-
