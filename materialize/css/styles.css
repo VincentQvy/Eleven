@@ -81,3 +81,41 @@ hr {
     list-style-type: none;
     text-align: left;
 }
+
+.forfait{
+    margin-top: 25px;
+}
+
+.forfait .card-panel{
+    background-color: #37474f;
+    color: white;
+    padding: 75px;
+    height: 600px;
+}
+
+.forfait .card-panel .check{
+    font-size: 50px;
+}
+
+.forfait .card-panel h5{
+    text-align: center;
+}
+
+.forfait .card-panel li{
+    margin: 50px;
+}
+
+.forfait .retour{
+    color: gray;
+}
+.mastercard .card-panel{
+    background-color: #37474f;
+    color: white;
+    padding: 75px;
+    height: 700px;
+}
+
+.forfait .conditions, .mastercard .conditions{
+    color: gray;
+    font-size: 10px;
+}

@@ -40,7 +40,7 @@
   <div class="row white-text">
     <div class="col s10 offset-s1">
     <h3>Abonnement et facturation</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier ou annuler l'abonnement</a>
+    <a href="getstarted.php" class="btn-flat grey-text mdpforget">Modifier ou annuler l'abonnement</a>
     </div>
   </div>
   <div class="row">

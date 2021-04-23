@@ -32,7 +32,8 @@
         </div>
         <div class="col s6 center">
             <hr>
-            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ullam omnis, itaque aperiam facere explicabo asperiores sit sed quisquam voluptates accusantium dolorum dolore distinctio maiores assumenda, modi provident? Labore, velit.</p>
+            <p class="white-text">Accédez à tous les services que propose Eleven pour 7.99€/ mois.</p>
+            <p class="white-text">Annulez votre abonnement à tout moment, c'est sans engagement.</p>
             <a href="index.php" class="waves-effect waves-light btn-large black-text jaune border">Finaliser inscription</a>
         </div>
         <div class="col s3">
