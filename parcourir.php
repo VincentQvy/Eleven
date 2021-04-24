@@ -28,7 +28,7 @@
             <div id="liveCompetition" class="carousel ">
                 <?php foreach ($videos as $video) { ?>
                     <div class="carousel-item day_competition">
-                        <iframe src="<?php echo $video['url'] ?>" width="390" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <a href='stream.php?id=<?php echo $video['id'] ?>' ><?php echo $video['name'] ?></a>
                     </div>
             <?php }
             }  ?>
