@@ -31,7 +31,7 @@
   <div class="row white-text">
     <div class="col s10 offset-s1">
     <h3>Compte</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les informations personnelles</a>
+    <a class="btn-flat grey-text mdpforget">Modifier les informations personnelles</a>
     </div>
   </div>
   <div class="row white-text">
@@ -51,9 +51,10 @@
   <div class="row white-text">
     <div class="col s10 offset-s1">
     <h3>Paramètre</h3>
-    <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Modifier les paramètres du profil</a>
+    <a class="btn-flat grey-text mdpforget">Modifier les paramètres du profil</a>
     </div>
   </div>
 </body>
+<?php require_once 'component/footer.php' ?>
 
 </html>

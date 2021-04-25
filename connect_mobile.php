@@ -39,7 +39,7 @@
                 </div>
             </form>
             <div >
-                <a onclick="M.toast({html: 'Cheh'})" class="btn-flat grey-text mdpforget">Mot de passe oublié ?</a>
+                <a class="btn-flat grey-text mdpforget">Mot de passe oublié ?</a>
             </div>
             <hr>
             <div>

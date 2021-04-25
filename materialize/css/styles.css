@@ -29,7 +29,7 @@
 
 .page-footer{
     position: relative;
-    bottom: -9%;
+    bottom: 0;
     background-color: #37474f!important;
     text-align: center;
     width: 100%;
@@ -118,4 +118,36 @@ hr {
 .forfait .conditions, .mastercard .conditions{
     color: gray;
     font-size: 10px;
+}
+.place_stream{
+    margin-left: 25px;
+}
+@media screen and (max-device-width: 420px) {
+    .place_stream .mobile_stream {
+        width: 900px;
+        height: 500px;
+    }
+    .place_chat {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 280px;
+    }
+  }
+@media screen and (min-width: 1000px) {
+    .place_stream .mobile_stream {
+        width: 980px ;
+        height : 680px ;
+    }
+}
+
+.like_button{
+    padding-bottom: 10px;
+    margin-left: 960px;
+}
+.place_chat{
+    margin-left: 200px;
+}
+.place-footer {
+    margin-top: 435px;
+
 }

@@ -121,7 +121,8 @@
     });
   </script>
 </body>
-  <?php require_once 'component/footer.php'?>
-
+<div class="place_footer">
+<?php require_once 'component/footer.php'?>
+</div>
 
 </html>

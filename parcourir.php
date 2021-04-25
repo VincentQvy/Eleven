@@ -28,7 +28,8 @@
             <div id="liveCompetition" class="carousel ">
                 <?php foreach ($videos as $video) { ?>
                     <div class="carousel-item day_competition">
-                        <a href='stream.php?id=<?php echo $video['id'] ?>' ><?php echo $video['name'] ?></a>
+                        <a href='stream.php?id=<?php echo $video['id'] ?>' ><?php echo $video['name'] ?><img src="<?php echo $video['image'] ?>" alt=""></a>
+                        
                     </div>
             <?php }
             }  ?>
