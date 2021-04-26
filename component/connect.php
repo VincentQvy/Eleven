@@ -14,11 +14,12 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
         if(($user['email'] == $mail)&&
             ($user['password'] == $hash_password)) {
                 $_SESSION['user'] = $user;
-                header("Location: ../index.php");
+                $incorrect = 0;
+                header("Location: ../PHP/Body/index.php");
         }
         else {
-            echo("Mot de passe ou utilisateur incorrect");
-
+            $incorrect = 1;
+            header('Location: ../PHP/Body/index.php?incorrect='.$incorrect);
         }
     }
 }

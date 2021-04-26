@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col l1 s12">
-                <img class="logo" src="images\BDE.webp" alt="Gaming Campus - Logo"/>
+                <img class="logo" src="../../images\BDE.webp" alt="Gaming Campus - Logo"/>
             </div>
             <div class="col l3 offset-l2 s12 left">
                 <ul class="unstyled">

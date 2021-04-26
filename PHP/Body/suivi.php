@@ -1,22 +1,13 @@
 <html lang="fr" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="materialize/css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <title>One on One</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-  <script type="text/javascript" src="materialize/js/jquery.min.js"></script>
-  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-</head>
+<?php require_once '../Header/Header.php'?>
 
 <body class='blue_bg'>
-  <?php require_once 'component/navbar.php'?>
+  <?php require_once '../Navbar/navbar.php'?>
   <div class="row">
     <div class="col s1"></div>
     <div class="col s3 m6 white-text police_title">  
-      <p>Compétitions que vous avez raté</p>
+      <p>Chaînes que vous aimez en direct</p>
     </div>
     <div class="col s8"></div>
   </div>
@@ -51,7 +42,7 @@
   <div class="row">
     <div class="col s1"></div>
     <div class="col s4 m8 white-text police_title">  
-      <p>Reprendre les compétitions en cours</p>
+      <p>Chaînes que vous pourriez aimer en direct</p>
     </div>
     <div class="col s7"></div>
   </div>
@@ -86,7 +77,7 @@
   <div class="row">
     <div class="col s1"></div>
     <div class="col s4 m8 white-text police_title">  
-      <p>Les compétitions que vous auriez pu aimer</p>
+      <p>Chaînes aue nous vous conseillons en direct</p>
     </div>
     <div class="col s7"></div>
   </div>
@@ -114,13 +105,13 @@
     </div>
   </div>
 
+
   <script>
     $(document).ready(function(){
       $('.carousel').carousel( {padding:150 , fullWidth:true, indicators:true});
     });
   </script>
 </body>
-  <?php require_once 'component/footer.php'?>
-
+<?php require_once '../Footer/footer.php'?>
 
 </html>
