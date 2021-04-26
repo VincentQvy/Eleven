@@ -3,7 +3,7 @@
 
 
 <body class='blue_bg'>
-    <?php require '../../config.php';
+    <?php require '../../component/config.php';
     require_once '../Navbar/navbar.php' ?>
     <div class='row valign-wrapper'>
         <div class='col s6 offset-s3 center white-text'>

@@ -2,7 +2,7 @@
 <?php require_once '../Header/Header.php'?>
 
 <body class='blue_bg'>
-    <?php require '../../config.php';
+    <?php require '../../component/config.php';
     require_once '../Navbar/navbar.php' ?>
     <div class='row valign-wrapper'>
         <div class='col s2'>
@@ -12,7 +12,7 @@
             <p>Avec One on One, profitez de l'ensemble des compétitions d'esport du monde entier !</p>
         </div>
         <div class='col s4 center white-text logo_place'>
-            <img src='images/esport_victory.jpg'>
+            <img src='../../images/esport_victory.jpg'>
         </div>
         <div class='col s2'>
         </div>

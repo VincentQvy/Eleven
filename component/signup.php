@@ -18,4 +18,4 @@ foreach($users as $user) {
     }
 }
 $new_user = CommandSQL($pdo,"INSERT INTO users (pseudo,firstname,lastname,email,password,profil_pic,is_creator) VALUES ('$pseudo','$first_name','$last_name','$mail','$hash_password','0','0' )");
-header("Location: ../inscription_finalize.php");
+header("Location: ../PHP/Body/inscription_finalize.php");

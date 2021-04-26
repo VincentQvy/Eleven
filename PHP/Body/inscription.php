@@ -2,14 +2,14 @@
 <?php require_once '../Header/Header.php'?>
 
 <body class='blue_bg'>
-    <?php require '../../config.php';
+    <?php require '../../component/config.php';
     require_once '../Navbar/navbar.php' ?>
     <div class="center-align placement_img_inscription">
-        <a class="brand-logo "><img src='images/eleven.png' height="150"></a>
+        <a class="brand-logo "><img src='../../images/eleven.png' height="150"></a>
     </div>
     <div class='row valign-wrapper'>
         <div class='col s6 offset-s3 center white-text'>
-            <form action="component/signup.php" method="post">
+            <form action="../../component/signup.php" method="post">
                 <div class="row">
                 <div class ="col s3"></div>
                     <div class="input-field col s4 offset-s1 white border">
