@@ -21,34 +21,47 @@
         <div class='col s6 offset-s3 center white-text'>
             <form action="component/signup.php" method="post">
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="pseudo" type="text" placeholder='Pseudo' class="input">
                     </div>
+                    <div class ="col s3"></div>
+                <div class ="col s3"></div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="last_name" type="text" placeholder='Nom' class="input">
                     </div>
+                <div class ="col s3"></div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="first_name" type="text" placeholder='Prénom' class="input">
                     </div>
+                <div class ="col s3"></div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="password_sign" type="password" placeholder="Password" class="validate">
                     </div>
+                <div class ="col s3"></div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="confirm_password" type="password" placeholder="Confirm Password" class="validate">
                     </div>
+                <div class ="col s3"></div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 white border">
+                <div class ="col s3"></div>
+                    <div class="input-field col s4 offset-s1 white border">
                         <input name="email_sign" type="email" placeholder="Email" class="input">
                     </div>
+                <div class ="col s3"></div>
                 </div>
                 <div>
                     <div>
